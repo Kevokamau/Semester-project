@@ -72,6 +72,67 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif;
         display: none;
       }
 
+      header {
+        position:relative;
+        background: #3551A3;
+       }
+
+       .hero-img {
+        background: linear-gradient(
+            #0103269a, #0103267b
+        ), url(/images/andrew-ruiz-348421.jpg);
+        position: relative;
+        background-position: center;
+        width: auto;
+        min-height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 2rem;
+    
+       }
+
+       .hero-text {
+        color: aliceblue;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       }
+
+       span {
+        color: #D1284C;
+       }
+
+       .hero-headline {
+        color:aliceblue;
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+       }
+       .hero-p {
+        color: #FFF;
+        text-align: center;
+        font-size: 25px;
+
+       }
+
+       .btn { 
+        display: flex;
+        width: 202px;
+        height: 40px;
+        padding: 4px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0; 
+        border-radius: 4px;
+        background: #D1284C;
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 20px;
+
+       }
+
 
 
     /* MIN MEDIA START ---Navigation Rules */
