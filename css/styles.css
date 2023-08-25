@@ -9,6 +9,16 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif;
     color: #3551A3;
 }
 
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .logo {
     max-width: 200px;
     padding: 20px;
@@ -131,6 +141,70 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif;
         text-decoration: none;
         font-size: 20px;
 
+       }
+
+       .btn:hover {
+        background-color: #3551A3;
+      }
+
+      .content-btn {
+        width: 160px;
+        font-size: 15px;
+        height: 30px;
+        margin-top: 30px;
+      }
+
+       .container { 
+        
+        display: flex;
+        min-height: 600px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 60px;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        background: #F1F3E2;
+        
+       }
+
+       .content { 
+        width: 600px;
+        height: auto;
+        flex-shrink: 0;
+       }
+
+       img {
+        width: 600px;
+        border-radius: 8px;
+       }
+
+       .white {
+        background-color: #FFF;
+       }
+
+       .box {
+        width: 280px;
+        height: 400px;
+        box-shadow: 0 4px 8px 0 rgba(18, 17, 17, 0.004);
+        transition: 0.3s;
+
+       }
+
+       .box-img {
+        width: 300px;
+        margin-bottom: 0;
+       }
+       .box-txt {
+        text-align: center;
+        color: #FFF;
+        background-color: #3551A3;
+        width: 300px;
+        height: 60px;
+       }
+
+       .box :hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
        }
 
 
