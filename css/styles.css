@@ -1,0 +1,89 @@
+*{transition:all 0.4s ease-in-out;}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #3551A3;
+}
+
+.logo {
+    max-width: 200px;
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    row-gap: 30px;
+    place-items: center;
+    justify-content: space-between;
+    background: #fafafa;
+    border-bottom: #3551A3 solid 1px;
+   
+    }
+
+    .nav {
+
+        padding: 1rem 1rem;
+        
+        width: max-content;
+       }
+    
+       .nav, #menu-checkbox {
+        display: none;
+       }
+    
+       #menu-checkbox:checked ~ .nav {
+        display: block;
+       }
+    
+       .nav a {
+        display: inline-block;
+        padding: 20px 20px;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        color: #3551A3;
+        }
+    
+        .nav a:hover {
+         color: #D1284C;
+        
+        }
+      .hamburger-icon {
+        background-color: aliceblue;
+        justify-content: center;
+        align-content: center;
+        padding: 5px;
+        margin-left: 20px;
+        font-size: 23px;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+    
+      .hamburger-icon:hover {
+    
+        background-color: #D1284C;
+      }
+
+      .label {
+        display: none;
+      }
+
+
+
+    /* MIN MEDIA START ---Navigation Rules */
+
+  @media (min-width: 600px){
+    .nav {
+        display: block;
+        position: static;
+    }
+    .hamburger-icon {
+        display: none;
+       }
+
+      }
+      /* MIN MEDIA ENDS */
