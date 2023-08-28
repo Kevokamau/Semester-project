@@ -3,6 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    background-color: none;
 }
 h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -17,6 +18,16 @@ h2 {
 h3 {
     font-weight: 600;
     font-size: 20px;
+}
+
+a {
+    color: #D1284C;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #3551A3;
 }
 
 .logo {
@@ -72,16 +83,17 @@ h3 {
         background-color: aliceblue;
         justify-content: center;
         align-content: center;
-        padding: 5px;
+        padding: 10px;
         margin-left: 20px;
-        font-size: 23px;
+        font-size: 30px;
         border-radius: 2px;
         cursor: pointer;
       }
     
       .hamburger-icon:hover {
     
-        background-color: #D1284C;
+        color: #D1284C;
+
       }
 
       .label {
@@ -113,6 +125,7 @@ h3 {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        text-align: center;
        }
 
        span {
@@ -133,14 +146,10 @@ h3 {
        }
 
        .btn { 
-        display: flex;
+       
         width: 202px;
         height: 40px;
-        padding: 4px 24px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        flex-shrink: 0; 
+        padding: 10px 30px;
         border-radius: 4px;
         background: #D1284C;
         color: aliceblue;
@@ -151,6 +160,7 @@ h3 {
 
        .btn:hover {
         background-color: #3551A3;
+        color: #F1F3E2;
       }
 
       .content-btn {
@@ -178,6 +188,7 @@ h3 {
         width: 600px;
         height: auto;
         flex-shrink: 0;
+        
        }
 
        img {
@@ -187,6 +198,7 @@ h3 {
 
        .white {
         background-color: #FFF;
+        text-align: center;
        }
 
        .box {
@@ -219,6 +231,98 @@ h3 {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
        }
 
+       .c2a {
+        background: linear-gradient(
+            #131f42ab, #01032693
+        ), url(/images/william-bout-264826.jpg);
+        position: relative;
+        background-position: center;
+        width: auto;
+        min-height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 2rem;
+    
+       }
+
+       .c2a-p {
+        font-size: 40px;
+        margin: 0;
+    
+        line-height: 45px;
+        text-align: center;
+        padding-bottom: 10px;
+       }
+
+      button { 
+        border-radius: 4px;
+        background: #D1284C; 
+        width: 202px;
+        height: 40px;
+        padding: 4px 24px;
+        border-color: #D1284C;
+        color: #F1F3E2;
+        
+        
+      }
+
+      footer {
+        background: linear-gradient(0deg, rgba(6, 9, 30, 0.84) 0%, rgba(6, 9, 30, 0.84) 100%), url(/images/celso-405219.jpg);
+        min-height: 300px;
+        background-position: center;
+        width: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        place-items: center;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        
+        
+      }
+
+      .footer-logo {
+        width: 300px;
+        border-radius: 0px;
+        padding: 20px;
+      }
+
+      .footer-content {
+        color: #fafafa;
+        
+      }
+
+     .footer-content h4 {
+        color: #D1284C;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 0px;
+      }
+
+      ul {
+        margin-bottom: 10px;
+        margin-left: 0px;
+        padding-left: 0px;
+        color: #e2e2e4;
+      }
+
+      ul a {
+
+        color: #fff;
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+      ul a:hover {
+        color: #D1284C;
+      }
+
+      li {
+        list-style-type: none;
+      }
+
 
 
     /* MIN MEDIA START ---Navigation Rules */
@@ -233,4 +337,32 @@ h3 {
        }
 
       }
+
+     
       /* MIN MEDIA ENDS */
+
+      @media (max-width:600px){
+
+        .nav {
+            position: absolute;
+            right: 0px;
+            margin-top: 300px;
+            z-index: 100;
+            border-radius: 0 0px 5px 5px;
+            background: rgba(255, 255, 255, 0.61);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+            
+          }
+
+         
+
+           .nav a {
+
+            display: block;
+            padding-bottom: 6px;
+            font-size: 16px;
+            padding: 5px;
+          }
+
+
+      }
