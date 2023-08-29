@@ -173,11 +173,10 @@ a:hover {
        .container { 
         
         display: flex;
-        
+        gap: 40px;padding: 5%;   
         justify-content: center;
         align-items: center;
         align-content: center;
-       
         flex-shrink: 0;
         flex-wrap: wrap;
         background: #F1F3E2;
@@ -193,7 +192,7 @@ a:hover {
        }
 
        img {
-        width: 600px;
+        width: 50vh;
         border-radius: 8px;
        }
 
