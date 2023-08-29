@@ -135,6 +135,7 @@ a:hover {
        .hero-headline {
         color:aliceblue;
         font-size: 40px;
+        line-height: 44px;
         font-weight: 600;
         text-align: center;
        }
@@ -147,8 +148,6 @@ a:hover {
 
        .btn { 
        
-        width: 202px;
-        height: 40px;
         padding: 10px 30px;
         border-radius: 4px;
         background: #D1284C;
@@ -164,9 +163,7 @@ a:hover {
       }
 
       .content-btn {
-        width: 160px;
         font-size: 15px;
-        height: 30px;
         margin-top: 30px;
       }
 
@@ -186,7 +183,6 @@ a:hover {
        .content { 
         width: 600px;
         height: auto;
-        gap: 60px;
         
         
        }
@@ -199,6 +195,8 @@ a:hover {
        .white {
         background-color: #FFF;
         text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
        }
 
        .box {
@@ -232,9 +230,7 @@ a:hover {
        }
 
        .c2a {
-        background: linear-gradient(
-            #131f42ab, #01032693
-        ), url(/images/william-bout-264826.jpg);
+        background: linear-gradient( #131f42, #010326d9 ), url(/images/william-bout-264826.jpg);
         position: relative;
         background-position: center;
         width: auto;
@@ -253,6 +249,14 @@ a:hover {
         text-align: center;
         padding-bottom: 10px;
        }
+
+       .c2a a {
+        text-decoration: underline;
+      }
+
+      .c2a a:hover {
+        color:#fafafa;
+      }
 
       button { 
         border-radius: 4px;
@@ -363,6 +367,31 @@ a:hover {
             font-size: 16px;
             padding: 5px;
           }
+
+          .hero-p {
+            font-size: 20px;
+          }
+
+          .c2a-p {
+            font-size: 25px;
+            line-height: 25px;
+          }
+
+
+       .c2a a {
+        font-size: 20px;
+      }
+
+      footer {
+        flex-direction: column;
+        padding-left: 60px;
+      }
+
+      .footer-logo {
+        padding: 0px;
+      }
+
+         
 
 
       }
