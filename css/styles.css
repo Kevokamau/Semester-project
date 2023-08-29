@@ -363,6 +363,10 @@ a:hover {
         padding-bottom: 50px;
       }
 
+      .no-padding {
+        padding: 5% 0 0 0;
+      }
+
 
 
     /* MIN MEDIA START ---Navigation Rules */
