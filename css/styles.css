@@ -197,6 +197,17 @@ a:hover {
         margin-top: 30px;
       }
 
+      .blue-btn {
+        font-size: 15px;
+        margin-top: 30px;
+        background-color: #3551A3;
+      }
+
+      .blue-btn:hover {
+        background-color: #fafafa;
+        color: #3551A3;
+      }
+
        .container { 
         
         display: flex;
@@ -215,6 +226,10 @@ a:hover {
         height: auto;
         
         
+       }
+
+       .red-container {
+        width: 50%;
        }
 
        img {
@@ -367,12 +382,24 @@ a:hover {
       }
 
       .card-v2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-color: #D1284C;
         height: 60vh;
         border-radius: 5px;
         padding: 1%;
         color: #fafafa;
+        text-align: center;
 
+      }
+
+      .card-v2 h2 {
+        color: #fafafa;
+      }
+
+      .card-v2 p {
+        font-size: 20px;
       }
 
       .containerv2 {
