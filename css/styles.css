@@ -415,6 +415,42 @@ a:hover {
         padding: 5% 0 0 0;
       }
 
+      .paddingX2 {
+        padding-bottom: 20px;
+      }
+
+      .contact-text {
+        line-height: 20px;
+      }
+
+      .form {
+       
+        min-height: 50px;
+        width: 90%;
+        border-radius: 5px;
+        background-color: #e2e2e4;
+        margin-right: 10px;
+        border: #949494 solid 1px;
+        margin-bottom: 20px;
+        
+      
+      }
+    
+      .form-btn {
+        padding: 16px 50px;
+        background-color: #3551A3;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        border: none;
+        width: 90%;   
+      }
+
+      .form-btn:hover {
+        background-color: #fafafa;
+        color: #D1284C;
+      }
+
 
 
     /* MIN MEDIA START ---Navigation Rules */
