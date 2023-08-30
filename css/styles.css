@@ -451,6 +451,29 @@ a:hover {
         color: #D1284C;
       }
 
+      .event-flex {
+        display: flex;
+        background-color: #fafafa;
+        align-items: center;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.13);
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .event-text {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+
+      .c2a-v2 {
+        font-size: 20px;
+        line-height: 25px;
+      }
+
+      .event-img {
+        display: block;
+      }
+
 
 
     /* MIN MEDIA START ---Navigation Rules */
@@ -513,6 +536,19 @@ a:hover {
 
       .footer-logo {
         padding: 0px;
+      }
+
+      .event-flex {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+      }
+
+      .c2a {
+        min-height: 50vh;
+      }
+
+      .c2a-v2 {
+        font-size: 20px;
       }
 
          
