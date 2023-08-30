@@ -79,6 +79,9 @@ a:hover {
          color: #D1284C;
         
         }
+
+        
+
       .hamburger-icon {
         background-color: aliceblue;
         justify-content: center;
@@ -132,6 +135,15 @@ a:hover {
         padding-bottom: 2rem;
     
        }
+
+       .spaces {
+          background: linear-gradient(
+              #0103269a, #0103267b
+          ), url(/images/andrew-ruiz-348421.jpg);
+          
+      
+         }
+       
 
        .hero-text {
         color: aliceblue;
@@ -352,6 +364,15 @@ a:hover {
       .card img {
         width: 50vh;
         
+      }
+
+      .card-v2 {
+        background-color: #D1284C;
+        height: 60vh;
+        border-radius: 5px;
+        padding: 1%;
+        color: #fafafa;
+
       }
 
       .containerv2 {
