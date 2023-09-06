@@ -233,7 +233,7 @@ a:hover {
        }
 
        img {
-        width: 50vh;
+        width: 100%;
         border-radius: 8px;
        }
 
@@ -376,10 +376,7 @@ a:hover {
         max-width: 50vh;
       }
 
-      .card img {
-        width: 50vh;
-        
-      }
+    
 
       .card-v2 {
         display: flex;
@@ -555,13 +552,7 @@ a:hover {
         left: 40%;
       }
 
-      .card img {
-        width: 100%;
-      }
-
-      img {
-        width: 100%;
-      }
+      
 
       .no-padding {
         padding: 3%;
