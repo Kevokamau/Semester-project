@@ -469,6 +469,7 @@ a:hover {
 
       .event-img {
         display: block;
+        width: 50vh;
       }
 
 
@@ -556,6 +557,11 @@ a:hover {
 
       .no-padding {
         padding: 3%;
+      }
+
+      .event-img {
+        
+        width: 100%;
       }
       
 
