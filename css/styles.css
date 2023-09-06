@@ -551,6 +551,23 @@ a:hover {
         font-size: 20px;
       }
 
+      .page-header-headline {
+        left: 40%;
+      }
+
+      .card img {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      .no-padding {
+        padding: 3%;
+      }
+      
+
          
 
 
