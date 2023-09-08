@@ -448,6 +448,10 @@ a:hover {
         color: #D1284C;
       }
 
+      .label {
+        display: none;
+      }
+
       .event-flex {
         display: flex;
         background-color: #fafafa;
